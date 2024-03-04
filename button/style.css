@@ -1,0 +1,33 @@
+.button-2 {
+    display: block;
+    margin: 0 auto;
+    background-color: #E8C8C8;
+    border: none;
+    color: white;
+    font: arial;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/*
+.button-2:hover {
+    background-color: #9E6262;
+
+}
+*/
+@media (prefers-reduced-motion: reduce) {
+    .button-2 {
+        animation: none limportant;
+        transition: none limportant;
+    }   
+}
+@media (hover: hover) and (pointer: fine)
+{
+    .button-2:hover {
+        background-color: #e2b174;
+    }
+}

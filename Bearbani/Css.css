@@ -1,0 +1,15 @@
+body {
+    background-color: #867b36;
+    
+
+;
+}
+
+.caixa {
+  position: relative;
+    background-color: aquamarine;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: auto 0;
+}
